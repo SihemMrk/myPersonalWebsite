@@ -1,0 +1,31 @@
+{
+  "name": "sihem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-client": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SihemMrk/myPersonalWebsite.git"
+  },
+  "author": "sihem meriki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SihemMrk/myPersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/SihemMrk/myPersonalWebsite#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
+    "prettier": "^1.16.4",
+    "react": "^16.8.6",
+    "serve-static": "^1.13.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
