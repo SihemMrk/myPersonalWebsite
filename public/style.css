@@ -1,16 +1,37 @@
-h1 {
-  font-size: 3em;
-  font-weight: bold;
-  color: #3bb4c1;
-  margin-left: 7%;
-  font-family: 'Playfair Display', serif;
+body{
+    margin: 0px;
+    padding : 0px;
 }
+/* html{
+    margin: 0px;
+    padding : 0px;
+} */
+h1 {
+  margin: 0px; 
+  padding : 0px;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: black;
+  margin-left: 3%;
+  font-family: 'Raleway', sans-serif;
+}
+h5 {
+    margin: 0px; 
+  padding : 0px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #df0054;
+    margin-left: 3%;
+    font-family: 'Raleway', sans-serif;
+  }
 .imagefond{
+    margin-top: 1%;
     height: 400px;
-    background-image:url(photo/IMG_8014.jpg);
+    background-image:url(photo/IMG_3783.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /* border: 1px solid black; */
 }
 .choices{
    display: flex;
@@ -19,7 +40,7 @@ h1 {
    margin-right: 30%;
    margin-bottom: 5%;
    color:#1e0411;
-   font-family: 'Rubik', sans-serif;
+   font-family: 'Open Sans', sans-serif;
   
 }
 
@@ -30,7 +51,7 @@ h1 {
     margin-top: 20%;
     line-height: 110px;
     border:3px solid white;   
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.1);
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
@@ -38,38 +59,97 @@ h1 {
 }
 
 h2{
-    font-size:2.2em;
-    text-align: center;
+    font-size:2em;
     padding-bottom: 1%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 5%;
  
 }
 
 .me{
-    padding-top: 1%;
+    /* padding-top: 1%; */
     padding-bottom: 2%;
+
  
 }
 
 .myInfo {
     display: flex;
     justify-content: space-around;
-    margin-top: 4%;
-    margin-left: 10%;
+    margin-top: 6%;
+    margin-left: 7%;
     margin-right: 10%
 }
 
-img{
-    height: 250px;
-    width: 250px;
+#photo{
+    height: 300px;
+    width: 300px;
+    margin-right: 25px;
+    border:1px solid blanchedalmond;  
 }
 
 h3{
-    font-size:1.5em
+    font-size:1.8em;
+    /* color:  #df0054; */
 }
+
+h4{
+    font-size:1.2em
+}
+
 
 .info {
     font-size:1.3em;
 
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction : column;
+} */
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+hr{
+   width: 20%;
+   align-items: center;
+   border-bottom:1px solid #df0054;
+}
+
+.separation{
+	width:2px;
+		height:50%;
+		position:absolute;
+		background-color:#df0054;
+        left:38%;
+        margin-top: 1%;
+	}
+
+.projects {
+    position : relative;
+    display : flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    height: 300px;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+
+li {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#project{
+    position : absolute
+}
+
+.logos{
+    position : absolute
 }
 
