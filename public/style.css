@@ -135,7 +135,7 @@ hr{
     display : flex;
     justify-content: space-between;
     margin-top: 3%;
-    height: 450px;
+    height: 900px;
     padding-top: 2%;
     padding-left: 3%;
 }
@@ -147,8 +147,8 @@ li {
 
 #project{
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     overflow: hidden
 }
 
@@ -157,7 +157,7 @@ li {
     height: 100%;
 }
 
-.reviews,
+.previews,
 .logos{
     position: absolute;
     top: 0;
@@ -172,8 +172,8 @@ li {
     padding:  0px;
     background:#fff;
     opacity:0;
-    width:500px;
-    height:400px
+    width:700px;
+    height:700px
 }
 
 .logos img{
@@ -193,19 +193,35 @@ li {
 
 .imac{
     position : absolute;
-    background-image: url(photo/ecran-mac.png);
+    background-image: url(photo/Capture_décran.png);
+    background-size: 450px 400px;
+    background-position: 15px 20px;
+    background-repeat: no-repeat;
     height: 512px;
-    width : 408px;
+    width : 498px;
 }
 
 .iphoneHome {
+    margin-left: 400px;
+    margin-top: 200px;
     position: absolute;
-    background-image: url(photo/iphone.png);
-    width: 250px;
-    height: 501px;
+    background-image: url(photo/lightText.gif);
+    background-size: 174px 376px;
+    background-position: 15px 20px;
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 385px;
+   
+   
 }
 
 .iphoneHome img {
-    width: 227px;
-    height: 490px;
+   
+    width: 192px;
+    height: 385px;
+}
+
+.imac img {
+    height: 512px;
+    width : 498px;
 }
