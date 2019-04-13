@@ -147,14 +147,14 @@ li {
 
 #project{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     overflow: hidden
 }
 
 .project_preview {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .project_preview,
@@ -172,7 +172,7 @@ li {
     padding:  0px;
     background:#fff;
     opacity:0;
-    width:400px;
+    width:500px;
     height:400px
 }
 
