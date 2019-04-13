@@ -123,19 +123,18 @@ hr{
 
 .separation{
 	width:2px;
-		height:50%;
-		position:absolute;
-		background-color:#df0054;
-        left:48%;
-        margin-top: 1%;
-	}
+	height:65%;
+	position:absolute;
+	background-color:#df0054;
+    left:49%;
+}
 
 .projects {
     
     display : flex;
     justify-content: space-between;
     margin-top: 3%;
-    height: 900px;
+    height: 700px;
     padding-top: 2%;
     padding-left: 3%;
 }
@@ -145,7 +144,7 @@ li {
     font-size: 1.2em;
 }
 
-#project{
+.project{
     position: relative;
     width: 700px;
     height: 700px;
@@ -180,7 +179,7 @@ li {
     height:50px
 }
 
-#project:hover .logos{
+.project:hover .logos{
     opacity:1
 }
 
@@ -194,8 +193,8 @@ li {
 .imac{
     position : absolute;
     background-image: url(photo/Capture_décran.png);
-    background-size: 450px 400px;
-    background-position: 15px 20px;
+    background-size: 460px 400px;
+    background-position: 19px 0px;
     background-repeat: no-repeat;
     height: 512px;
     width : 498px;
@@ -206,8 +205,8 @@ li {
     margin-top: 200px;
     position: absolute;
     background-image: url(photo/lightText.gif);
-    background-size: 174px 376px;
-    background-position: 15px 20px;
+    background-size: 170px 372px;
+    background-position: 10px 10px;
     background-repeat: no-repeat;
     width: 192px;
     height: 385px;
@@ -215,7 +214,7 @@ li {
    
 }
 
-.iphoneHome img {
+.iphoneHome img, .iphoneHome2 img {
    
     width: 192px;
     height: 385px;
@@ -224,4 +223,17 @@ li {
 .imac img {
     height: 512px;
     width : 498px;
+}
+
+#project2{
+    display: flex;
+    justify-content: space-between
+}
+
+.separation2{
+	width:2px;
+	height:20%;
+	position:absolute;
+	background-color:#df0054;
+    /* left:49%; */
 }
