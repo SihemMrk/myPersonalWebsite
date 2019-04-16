@@ -167,7 +167,7 @@ li {
     margin:0;
     padding:100px 0 0;
     background:#fff;
-    opacity:1;
+    opacity:0;
     width:700px;
     height:600px;
     text-align: center;
@@ -232,8 +232,26 @@ li {
 
 .separation2{
 	width:2px;
-	height:20%;
+	height:50%;
 	position:absolute;
-	background-color:#df0054;
-    /* left:49%; */
+    background-color:#df0054;
+    left:62%;
+  
+}
+
+.description{
+    width : 50%;
+    margin-left : 4%
+}
+
+.iphoneHome2{
+    margin-left: 1100px;
+    margin-top: 20px;
+    position: absolute;
+    background-image: url(photo/herewego.jpeg);
+    background-size: 170px 362px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 385px; 
 }
