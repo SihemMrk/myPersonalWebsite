@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding : 0px;
+    font-family: 'Raleway', sans-serif;
 }
 /* html{
     margin: 0px;
@@ -124,9 +125,18 @@ hr{
 .separation{
 	width:2px;
 	height:65%;
-	position:absolute;
+	/* position:absolute; */
 	background-color:#df0054;
-    left:49%;
+    /* left:49%; */
+}
+
+.separation2{
+	width:2px;
+	height:50%;
+	/* position:absolute; */
+    background-color:#df0054;
+    /* left:62%; */
+  
 }
 
 .projects {
@@ -230,14 +240,7 @@ li {
     justify-content: space-between
 }
 
-.separation2{
-	width:2px;
-	height:50%;
-	position:absolute;
-    background-color:#df0054;
-    left:62%;
-  
-}
+
 
 .description{
     width : 50%;
@@ -254,4 +257,40 @@ li {
     background-repeat: no-repeat;
     width: 192px;
     height: 385px; 
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+    background-color: #df0054;
+    padding : 3% 40%    
+}
+
+#footer img {
+    width : 60px;
+    height: 60px
+}
+#navbar {
+    display:flex;
+}
+
+#navbar div {
+    width : 50%
+}
+#linkUp {
+    text-align: right;
+    margin-right: 1%
+}
+.linkedin {
+    width : 60px;
+    height: 60px;
+
+
+}
+
+.github {
+   
+    width : 40px;
+    height: 40px  
 }
