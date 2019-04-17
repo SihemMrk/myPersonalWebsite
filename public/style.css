@@ -167,8 +167,9 @@ li {
     height: 100%;
 }
 
-.previews,
+
 .logos{
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -235,7 +236,7 @@ li {
     width : 498px;
 }
 
-.project2{
+.project{
     display: flex;
     justify-content: space-between
 }
@@ -285,12 +286,9 @@ li {
 .linkedin {
     width : 60px;
     height: 60px;
-
-
 }
 
-.github {
-   
+.github { 
     width : 40px;
     height: 40px  
 }
