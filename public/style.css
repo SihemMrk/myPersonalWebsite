@@ -18,7 +18,7 @@ h1 {
 }
 h5 {
     margin: 0px; 
-  padding : 0px;
+    padding : 0px;
     font-size: 0.9em;
     font-weight: bold;
     color: #df0054;
@@ -68,26 +68,46 @@ h2{
  
 }
 
-.me{
+#me{
     /* padding-top: 1%; */
     padding-bottom: 2%;
 
  
 }
 
+.choices a {
+    text-decoration: none;
+}
+
+.choices a:hover /* Quand le visiteur clique sur le lien */
+{
+    background-color:  #df0054;
+    border-radius:50%;
+    width:180px;
+    height:180px;
+    margin-top: 14%;
+    line-height: 180px;
+    border:3px solid #df0054; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: white
+}
+
 .myInfo {
     display: flex;
     justify-content: space-around;
     margin-top: 6%;
-    margin-left: 7%;
-    margin-right: 10%
+    margin-left: 4%;
+    margin-right: 6%
 }
 
 #photo{
     height: 300px;
     width: 300px;
-    margin-right: 25px;
-    border:1px solid blanchedalmond;  
+    margin-right: 65px;
+    margin-top: 50px;
+    border:1px solid #D8D8D8;  
 }
 
 h3{
@@ -245,11 +265,16 @@ li {
 
 .description{
     width : 50%;
-    margin-left : 4%
+    padding-left: 3%;
+    padding-right: 17%
 }
-
+.column {
+    /* display: flex;
+    flex-direction: column; */
+    /* margin:10px ; */
+}
 .iphoneHome2{
-    margin-left: 1100px;
+    margin-left: 45%;
     margin-top: 20px;
     position: absolute;
     background-image: url(photo/herewego.jpeg);
@@ -272,6 +297,11 @@ li {
     width : 60px;
     height: 60px
 }
+
+#footer img:hover {
+    width : 80px;
+    height: 80px
+}
 #navbar {
     display:flex;
 }
@@ -292,3 +322,13 @@ li {
     width : 40px;
     height: 40px  
 }
+/* 
+.sites{
+    vertical-align: 
+} */
+
+.lightText {
+    width : 40%;
+    margin-right: 3%
+}
+

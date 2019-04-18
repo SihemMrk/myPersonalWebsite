@@ -17,10 +17,11 @@
             <h5>Fullstack Developer</h5>
         </div>
         <div id='linkUp'>
-           <a href='https://www.linkedin.com/in/sihem-meriki/'>
+          
+           <a class='sites' href='https://www.linkedin.com/in/sihem-meriki/'>
             <img class='linkedin' src='photo/linkedin-noir.png'/>
           </a>
-          <a href='https://github.com/SihemMrk'>
+          <a class='sites' href='https://github.com/SihemMrk'>
           <img class='github' src='photo/1200px-Octicons-mark-github.svg.png'/>
           </a>
         </div>
@@ -28,33 +29,34 @@
       
         <div class='imagefond'>
             <div class='choices'>
-                <a class='cases'>About me</a>
-                <a class='cases'>Projects</a>
+                <a class='cases' href="#me">About me</a>
+                <a class='cases' href="#projects">Projects</a>
                 <a class='cases'  href="file:///Users/Sihem/Documents/CV%20Sihem%20Meriki-4.pdf">Resume</a>
                 <a class='cases' href="mailto:sihemmeriki2@gmail.com?subject=Hello">Contact me</a>
                
             </div>
         </div>
         <div>
-            <div class='me'>
+            <div id='me'>
                 <div>
                     <h2>ABOUT ME</h2>
                     <hr>
                 </div>
                 <div class='myInfo'>
-                    <div><img id='photo' src="photo/Sihem_1.jpg" style='marginTop : "10px"' alt="Sihem Meriki"/></div>
+                    <div><img id='photo' src="photo/Sihem_1.jpg" alt="Sihem Meriki"/></div>
                     <div>
                         <h3>Hey there! I'm Sihem Meriki, a Full-Stack Software Developer</h3>
                         <p class='info'>I'm looking forward to expanding my knowledge of software development and leveraging my
                             skills in programming to explore careers in the tech industry
                         </p>
                         <h3>Programming Languages</h3>
-                        <span class='info'>JavaScript • React • Redux • Node • Express • SQL • HTML • CSS</span>
-                        <h3>Proficient In</h3>
+                        <span class='info'>JavaScript • JSX • HTML • CSS • GIT</span>
+                        <h3>Libraries I do use</h3>
+                        <span class='info'>Node.js • Express • React-Native(iOs) • Redux • Sequelize • Semantic </span>
                     </div>
                 </div>
             </div>
-            <div>
+            <div id='projects'>
                 <div>
                     <h2>PROJECTS</h2>
                     <hr>
@@ -81,7 +83,7 @@
                     </div>
 
                     <hr class="separation"/>
-                    <div style="width : 40%">
+                    <div class='lightText'>
                         <h3>LightText</h3>
                         <h4>
                             A text messaging client that allows users to send and receive
@@ -123,16 +125,20 @@
             </div>
             <hr class="separation2"/>
             <div class='previews'>
+            <div class="project">
             <div class='iphoneHome2'>
               <img src="photo/iphone.png"/>
             </div>
+            <div class='logos'>
+              <div class='column'>
+                <img class='logo' src="photo/node.png" alt="node"/>
+                <img class='logo' src="photo/reactnative.png" alt="react"/> 
+              </div>  
+            </div>
+            </div>
             </div>
            
-            <!-- <div class='logos'>
-                <img class='logo' src="photo/react.png" alt="react"/>
-                <img class='logo' src="photo/node.png" alt="node"/>
-            </div> -->
-          <!-- </div> -->
+       
 
             </div>
            <div id='footer'>
