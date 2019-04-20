@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background: #fafafa;
+  position: relative;
+}
+h1 {
+  margin: 20px 0 0;
+  padding: 10px 10px 0;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  border-bottom: 2px solid #2980b9;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #333333;
+  font-weight: normal;
+}
+h2,
+a {
+  color: #2980b9;
+  margin-top: 0px;
+}
+h5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  margin-right: -60px;
+  font-size: 30px;
+  margin-top: 90px;
+  color: rgba(41, 128, 185, 0.37);
+}
+
+h2 {
+  line-height: 40px;
+}
+
+ul {
+  margin: 5px 15px 10px 0;
+}
+ul li {
+  margin-left: 25px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+hr {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 0;
+  border: none;
+  border-top: solid 1px #a4d7f9;
+}
+
+.photo {
+  top: -17px;
+  right: 20px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.photo img {
+  width: 125px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.details {
+  font-size: 11px;
+  color: #444444;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+div.skills {
+  margin-top: 10px;
+}
+div.contact {
+  margin: 10px 0;
+  padding: 15px;
+  background: #fff;
+}
+div.skills div,
+div.formations,
+div.contact,
+div.career,
+div.hobbies,
+div.projects {
+  margin: 10px 0;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background: #fff;
+}
+.colums {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.career {
+  padding: 30px;
+}
+div.career div.position:first-of-type {
+  margin: 0;
+}
+div.career div.position {
+  line-height: 16px;
+  margin-top: 25px;
+}
+
+div.contact div {
+  width: 50%;
+}
+div.contact div span {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+div.contact div span.github a,
+div.contact div span.linkedin a {
+  background: url(photo/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png)
+    no-repeat left center;
+  background-size: 20px 20px;
+  padding: 5px 0 5px 25px;
+}
+div.contact div span.linkedin a {
+  background-image: url(photo/square-linkedin-512.png);
+}
+div.contact div:nth-of-type(1) {
+  float: left;
+  text-align: left;
+}
+div.contact div:nth-of-type(2) {
+  float: right;
+  text-align: right;
+}
+
+span.date {
+  font-size: 12px;
+  color: #555555;
+}
+span.ctx {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+div.projects div p {
+  font-size: 12px;
+  padding: 5px;
+}
+
+div.projects,
+div.career,
+div.formations {
+  position: relative;
+}
+div.projects h5 {
+  margin-right: -40px;
+}
+div.formations .cursus {
+  margin: 5px 0 10px;
+}
+div.formations .cursus h2 {
+  font-size: 22px;
+  font-weight: normal;
+}
+div.skills {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+div.hobbies {
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+div.skills,
+div.hobbies {
+  display: flex;
+  position: relative;
+}
+div.skills div,
+div.hobbies div {
+  width: calc(50% - 35px);
+  margin-top: 0;
+  height: 210px;
+}
+div.skills div:nth-of-type(1) {
+  margin-right: 10px;
+}
+div.skills div h2,
+div.hobbies div h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+div.skills div h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: normal;
+}
+div.skills div ul li {
+  font-weight: bold;
+}
+div.skills div:nth-of-type(2) {
+  float: right;
+}

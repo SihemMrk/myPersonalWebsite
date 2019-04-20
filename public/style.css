@@ -313,7 +313,11 @@ li {
     padding-top: 20px;
     padding-right: 10px;
     text-align: right;
-    margin-right: 1%
+    margin-right: 1%;    
+}
+
+#linkUp a {
+    text-decoration: none;
 }
 .linkedin {
     width : 60px;
