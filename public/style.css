@@ -139,19 +139,19 @@ hr{
 }
 
 .separation{
-	width:1.3px;
 	height:65%;
 	/* position:absolute; */
 	background-color:#df0054;
-    /* left:49%; */
+    border : none;
+    width : 4px
 }
 
 .separation2{
-	width:1.3px;
 	height:50%;
 	/* position:absolute; */
     background-color:#df0054;
-    /* left:62%; */
+    border : none;
+    width : 4px
   
 }
 
@@ -178,7 +178,7 @@ li {
 
 .previews {
     position: relative;
-    width: 100%;
+    width : calc(50% -2px);
     height: 100%;
 }
 
@@ -206,6 +206,9 @@ li {
     height:50px
 }
 
+.project{
+    width : 100%
+}
 .project:hover .logos{
     opacity:1
 }
@@ -260,9 +263,10 @@ li {
 
 
 .description{
-    width : 50%;
+    width : calc(50% -2px);
     padding-left: 20px;
     padding-right: 100px;
+
 }
 .column {
     /* display: flex;
@@ -285,8 +289,8 @@ li {
     display: flex;
     justify-content: space-between;
     height: 6%;
-    background-color: #df0054;
-    padding : 80px 1000px   
+    background-color: #df0054;  
+    padding: 70px 800px;
 }
 
 #footer a {
