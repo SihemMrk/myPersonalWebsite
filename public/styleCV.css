@@ -46,7 +46,7 @@ h2 {
 }
 
 ul {
-  margin: 5px 15px 10px 0;
+  margin: 5px 15px 8px 0;
 }
 ul li {
   margin-left: 25px;
@@ -172,8 +172,11 @@ div.career,
 div.formations {
   position: relative;
 }
+div.formations {
+  margin-top : 8px;
+}
 div.formations .cursus {
-  margin: 5px 0;
+  margin: 7px 0;
 }
 div.formations .cursus h2 {
   font-size: 15px;
