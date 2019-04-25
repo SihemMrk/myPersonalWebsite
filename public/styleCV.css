@@ -135,13 +135,13 @@ div.contact div span {
 }
 div.contact div span.github a,
 div.contact div span.linkedin a {
-  background: url(photo/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png)
+  background: url(photoCV/github.png)
     no-repeat left center;
   background-size: 17px 17px;
   padding: 5px 0 5px 21px;
 }
 div.contact div span.linkedin a {
-  background-image: url(photo/square-linkedin-512.png);
+  background-image: url(photoCV/linkedin.png);
 }
 div.contact div:nth-of-type(1) {
   float: left;
