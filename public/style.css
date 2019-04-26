@@ -139,21 +139,14 @@ hr{
 }
 
 .separation{
-	height:65%;
+	height:80%;
 	/* position:absolute; */
 	background-color:#df0054;
     border : none;
     width : 4px
 }
 
-.separation2{
-	height:50%;
-	/* position:absolute; */
-    background-color:#df0054;
-    border : none;
-    width : 4px
-  
-}
+
 
 .projects {
     width: 80%;
@@ -206,9 +199,7 @@ li {
     height:50px
 }
 
-.project{
-    width : 100%
-}
+
 .project:hover .logos{
     opacity:1
 }
@@ -255,18 +246,21 @@ li {
     width : 498px;
 }
 
-.project{
+/* .project{
     display: flex;
     justify-content: space-between
+} */
+
+
+
+.description, .project{
+    width : calc(50% -2px);
+   position : relative;
+   height : 100%
 }
 
-
-
-.description{
-    width : calc(50% -2px);
-    padding-left: 20px;
-    padding-right: 100px;
-
+.description {
+    padding : 0 20px;
 }
 .column {
     /* display: flex;
@@ -274,7 +268,8 @@ li {
     /* margin:10px ; */
 }
 .iphoneHome2{
-    margin-left: 300px;
+    left : 50%;
+    margin-left: -96px;
     margin-top: 20px;
     position: absolute;
     background-image: url(photo/herewego.jpeg);
@@ -286,20 +281,20 @@ li {
 }
 
 #footer{
-    display: flex;
-    justify-content: space-between;
-    height: 6%;
+    text-align : center;
     background-color: #df0054;  
-    padding: 70px 800px;
+    padding: 30px;
 }
 
 #footer a {
-    transition : all 0.5s
+    text-decoration: none;
+
 }
 
 #footer img {
     width : 60px;
-    height: 60px
+    height: 60px;
+    transition : all 0.5s
 }
 
 #footer img:hover {
