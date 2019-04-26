@@ -164,14 +164,12 @@ li {
 
 .project{
     position: relative;
-    width: 700px;
     height: 700px;
     overflow: hidden
 }
 
 .previews {
     position: relative;
-    width : calc(50% -2px);
     height: 100%;
 }
 
@@ -188,9 +186,9 @@ li {
     padding:100px 0 0;
     background:#fff;
     opacity:0;
-    width:700px;
     height:600px;
     text-align: center;
+    width:100%;
 }
 
 .logos .row{margin:30px 0;}
@@ -219,10 +217,13 @@ li {
     background-repeat: no-repeat;
     height: 512px;
     width : 498px;
+    left:50%;
+    margin-left:-249px;
 }
 
 .iphoneHome {
-    margin-left: 400px;
+    left:50%;
+    margin-left: 153px;
     margin-top: 200px;
     position: absolute;
     background-image: url(photo/lightText.gif);
@@ -254,13 +255,14 @@ li {
 
 
 .description, .project{
-    width : calc(50% -2px);
+    width : calc(70% - 2px);
    position : relative;
    height : 100%
 }
 
 .description {
     padding : 0 20px;
+    width : calc(30% - 2px)
 }
 .column {
     /* display: flex;
