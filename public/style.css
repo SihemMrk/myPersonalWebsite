@@ -157,6 +157,7 @@ li {
 .project {
   position: relative;
   height: 700px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -393,9 +394,43 @@ li {
 
   .projects {
     display: block;
+    width: 100%;
   }
 
   .project {
-    display: block;
+    margin: 0 auto;
+    height: 2000px;
+  }
+  .imac {
+    background-size: 230px 200px;
+    height: 256px;
+    width: 249px;
+  }
+  .imac img {
+    height: 256px;
+    width: 249px;
+  }
+  .iphoneHome {
+    left: 50%;
+    margin-left: -35px;
+    margin-top: 90px;
+
+    background-size: 85px 186px;
+    background-position: 5px 0px;
+
+    width: 96px;
+    height: 192px;
+  }
+
+  .iphoneHome img,
+  .iphoneHome2 img {
+    width: 96px;
+    height: 192px;
+  }
+  /* .logos {
+    padding: 50px 0px;
+  } */
+  .logos img {
+    height: 30px;
   }
 }
