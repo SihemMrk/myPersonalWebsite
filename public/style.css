@@ -57,7 +57,12 @@ h5 {
   font-size: 1.2em;
   color: white;
 }
-
+.border {
+  margin-top: 60px;
+  width: 0%;
+  align-items: center;
+  border-bottom: 0.5px solid #df0054;
+}
 h2 {
   font-size: 1.7em;
   padding-bottom: 1%;
@@ -447,6 +452,7 @@ li {
     height: 400px;
   }
   .description {
+    padding: 0 0;
     width: 100%;
   }
   #footer img {
@@ -457,5 +463,14 @@ li {
   #footer img:hover {
     width: 60px;
     height: 60px;
+  }
+  li {
+    font-size: 1.3em;
+  }
+  .border {
+    margin-top: 60px;
+    width: 40%;
+    align-items: center;
+    border-bottom: 0.5px solid #df0054;
   }
 }
