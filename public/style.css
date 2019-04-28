@@ -384,7 +384,7 @@ li {
   }
   .myInfo {
     display: block;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   .myInfo > div {
@@ -394,17 +394,18 @@ li {
 
   .projects {
     display: block;
+    height: auto;
     width: 100%;
   }
 
   .project {
     margin: 0 auto;
-    height: 2000px;
   }
   .imac {
     background-size: 230px 200px;
     height: 256px;
     width: 249px;
+    margin-left: -125px;
   }
   .imac img {
     height: 256px;
@@ -412,25 +413,49 @@ li {
   }
   .iphoneHome {
     left: 50%;
-    margin-left: -35px;
+    margin-left: 70px;
     margin-top: 90px;
-
     background-size: 85px 186px;
     background-position: 5px 0px;
-
     width: 96px;
     height: 192px;
   }
-
+  .iphoneHome2 {
+    left: 35%;
+    margin-left: 0px;
+    /* margin-top: 20px; */
+    position: absolute;
+    background-image: url(photo/herewego.jpeg);
+    background-size: 85px 186px;
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 192px;
+  }
   .iphoneHome img,
   .iphoneHome2 img {
     width: 96px;
     height: 192px;
   }
-  /* .logos {
-    padding: 50px 0px;
-  } */
+  .logos {
+    padding: 0px 0 0;
+  }
   .logos img {
     height: 30px;
+  }
+  .previews {
+    height: 400px;
+  }
+  .description {
+    width: 100%;
+  }
+  #footer img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #footer img:hover {
+    width: 60px;
+    height: 60px;
   }
 }
