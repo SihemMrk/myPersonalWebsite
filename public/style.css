@@ -4,9 +4,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 /* html{
-      margin: 0px;
-      padding : 0px;
-  } */
+        margin: 0px;
+        padding : 0px;
+    } */
 h1 {
   margin: 0px;
   padding: 10px;
@@ -122,10 +122,10 @@ h4 {
 }
 
 /* .header {
-      display: flex;
-      justify-content: space-between;
-      flex-direction : column;
-  } */
+        display: flex;
+        justify-content: space-between;
+        flex-direction : column;
+    } */
 
 p {
   text-align: justify;
@@ -212,7 +212,7 @@ li {
 
 .logo {
   /* max-height : 100%;
-      width: auto;   */
+        width: auto;   */
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -290,7 +290,7 @@ li {
 }
 .column {
   /* display: flex;
-      flex-direction: column; */
+        flex-direction: column; */
   /* margin:10px ; */
 }
 .iphoneHome2 {
@@ -385,7 +385,7 @@ li {
     height: 30px;
   }
   /* .imagefond .choices {
-    } */
+      } */
   .imagefond {
     height: 200px;
   }
@@ -448,11 +448,11 @@ li {
   .iphoneHome {
     left: 60%;
     margin-left: 70px;
-    margin-top: 90px;
-    background-size: 105px 216px;
+    margin-top: 70px;
+    background-size: 105px 225px;
     background-position: 5px 0px;
     width: 116px;
-    height: 212px;
+    height: 230px;
   }
   .iphoneHome2 {
     left: 50%;
@@ -460,19 +460,19 @@ li {
     margin-top: 20px;
     position: absolute;
     background-image: url(photo/herewego.jpeg);
-    background-size: 135px 236px;
-    background-position: 5px 10px;
+    background-size: 130px 260px;
+    background-position: 9px 10px;
     background-repeat: no-repeat;
     width: 146px;
-    height: 242px;
+    height: 270px;
   }
   .iphoneHome img {
     width: 116px;
-    height: 212px;
+    height: 234px;
   }
   .iphoneHome2 img {
     width: 146px;
-    height: 242px;
+    height: 280px;
   }
   .logos {
     padding: 0px 0 0;
