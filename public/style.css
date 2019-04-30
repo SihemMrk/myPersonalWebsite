@@ -407,40 +407,40 @@ li {
     margin: 0 auto;
   }
   .imac {
-    background-size: 230px 200px;
-    height: 256px;
-    width: 249px;
+    background-size: 250px 220px;
+    height: 306px;
+    width: 289px;
     margin-left: -125px;
   }
   .imac img {
-    height: 256px;
-    width: 249px;
+    height: 306px;
+    width: 289px;
   }
   .iphoneHome {
-    left: 50%;
+    left: 60%;
     margin-left: 70px;
     margin-top: 90px;
-    background-size: 85px 186px;
+    background-size: 105px 216px;
     background-position: 5px 0px;
-    width: 96px;
-    height: 192px;
+    width: 116px;
+    height: 212px;
   }
   .iphoneHome2 {
-    left: 35%;
-    margin-left: 0px;
+    left: 50%;
+    margin-left: 20px;
     /* margin-top: 20px; */
     position: absolute;
     background-image: url(photo/herewego.jpeg);
-    background-size: 85px 186px;
+    background-size: 105px 206px;
     background-position: 5px 10px;
     background-repeat: no-repeat;
-    width: 96px;
-    height: 192px;
+    width: 116px;
+    height: 212px;
   }
   .iphoneHome img,
   .iphoneHome2 img {
-    width: 96px;
-    height: 192px;
+    width: 116px;
+    height: 212px;
   }
   .logos {
     padding: 0px 0 0;
