@@ -4,9 +4,9 @@ body {
   font-family: "Raleway", sans-serif;
 }
 /* html{
-    margin: 0px;
-    padding : 0px;
-} */
+      margin: 0px;
+      padding : 0px;
+  } */
 h1 {
   margin: 0px;
   padding: 10px;
@@ -59,7 +59,7 @@ h5 {
 }
 .border {
   margin-top: 60px;
-  width: 0%;
+  width: 40%;
   align-items: center;
   border-bottom: 0.5px solid #df0054;
 }
@@ -122,10 +122,10 @@ h4 {
 }
 
 /* .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction : column;
-} */
+      display: flex;
+      justify-content: space-between;
+      flex-direction : column;
+  } */
 
 p {
   text-align: justify;
@@ -146,6 +146,17 @@ hr {
   width: 4px;
 }
 
+.projects.herewego {
+  width: 60%;
+}
+
+.projects.herewego .project {
+  width: calc(30% - 2px);
+}
+.projects.herewego .description {
+  width: calc(70% - 2px);
+}
+
 .projects {
   width: 80%;
   display: flex;
@@ -162,7 +173,6 @@ li {
 .project {
   position: relative;
   height: 700px;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -202,7 +212,7 @@ li {
 
 .logo {
   /* max-height : 100%;
-    width: auto;   */
+      width: auto;   */
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -216,12 +226,12 @@ li {
   height: 512px;
   width: 498px;
   left: 50%;
-  margin-left: -249px;
+  margin-left: -239px;
 }
 
 .iphoneHome {
   left: 50%;
-  margin-left: 153px;
+  margin-left: 143px;
   margin-top: 200px;
   position: absolute;
   background-image: url(photo/lightText.gif);
@@ -243,12 +253,6 @@ li {
   width: 498px;
 }
 
-/* .project{
-    display: flex;
-    justify-content: space-between
-} */
-
-.description,
 .project {
   width: calc(70% - 2px);
   position: relative;
@@ -258,9 +262,11 @@ li {
 .description {
   padding: 0 20px;
   width: calc(30% - 2px);
+  position: relative;
+  height: 100%;
 }
 .video {
-  margin: 0 auto;
+  text-align: center;
 }
 .site {
   font-size: 1.2em;
@@ -284,12 +290,12 @@ li {
 }
 .column {
   /* display: flex;
-    flex-direction: column; */
+      flex-direction: column; */
   /* margin:10px ; */
 }
 .iphoneHome2 {
   left: 50%;
-  margin-left: -96px;
+  margin-left: -66px;
   margin-top: 20px;
   position: absolute;
   background-image: url(photo/herewego.jpeg);
@@ -379,7 +385,7 @@ li {
     height: 30px;
   }
   /* .imagefond .choices {
-  } */
+    } */
   .imagefond {
     height: 200px;
   }
@@ -450,7 +456,7 @@ li {
   }
   .iphoneHome2 {
     left: 50%;
-    margin-left: 20px;
+    margin-left: -73px;
     margin-top: 20px;
     position: absolute;
     background-image: url(photo/herewego.jpeg);
@@ -498,5 +504,9 @@ li {
     width: 40%;
     align-items: center;
     border-bottom: 0.5px solid #df0054;
+  }
+  iframe {
+    width: 373px;
+    height: 210px;
   }
 }
