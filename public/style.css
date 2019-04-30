@@ -259,6 +259,29 @@ li {
   padding: 0 20px;
   width: calc(30% - 2px);
 }
+.video {
+  margin: 0 auto;
+}
+.site {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #df0054;
+  text-decoration: none;
+}
+.siteLink {
+  font-size: 0.9em;
+  color: #df0054;
+}
+
+.top {
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.bottom {
+  text-align: center;
+  margin-top: 0px;
+}
 .column {
   /* display: flex;
     flex-direction: column; */
@@ -428,19 +451,22 @@ li {
   .iphoneHome2 {
     left: 50%;
     margin-left: 20px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     position: absolute;
     background-image: url(photo/herewego.jpeg);
-    background-size: 105px 206px;
+    background-size: 135px 236px;
     background-position: 5px 10px;
     background-repeat: no-repeat;
+    width: 146px;
+    height: 242px;
+  }
+  .iphoneHome img {
     width: 116px;
     height: 212px;
   }
-  .iphoneHome img,
   .iphoneHome2 img {
-    width: 116px;
-    height: 212px;
+    width: 146px;
+    height: 242px;
   }
   .logos {
     padding: 0px 0 0;
