@@ -1,0 +1,136 @@
+* {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 200;
+  color: #3e3d3d;
+}
+
+.myphoto {
+  width: 161px;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3 {
+  font-weight: 400;
+}
+
+#skills {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header,
+.content {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.col {
+  width: 440px;
+  /* background: #ff0000;
+  border: solid 1px #000000; */
+}
+
+h1 {
+  font-size: 50px;
+  color: #414040;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  background: #4ca1aa;
+  padding: 2px 13px;
+  color: white;
+}
+
+h4,
+h5,
+h1,
+h2,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-weight: bold;
+  color: #414040;
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.diplome {
+  padding-bottom: 4px;
+}
+
+ul {
+  margin-top: 2px;
+  padding-top: 0;
+  padding-left: 30px;
+}
+
+li,
+p,
+h4 {
+  line-height: 20px;
+}
+
+a {
+  color: #3e3d3d;
+}
+
+.github,
+.linkedin {
+  width: 19px;
+  height: 19px;
+}
+
+.email a,
+.site a,
+.icone a {
+  text-decoration: none;
+}
+
+#myInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#rightContact {
+  text-align: right;
+}
+
+.date {
+  font-size: 14px;
+  color: #555555;
+  font-style: italic;
+}
+
+.diplome {
+  padding-bottom: 7px;
+}
+
+#loisir h3 {
+  margin-top: 4px;
+}
